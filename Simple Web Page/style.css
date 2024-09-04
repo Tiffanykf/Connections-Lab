@@ -1,0 +1,42 @@
+h1 {text-align: center;
+    color: #4a0d64;
+
+}
+
+p {text-align: center;
+    color: #4a0d64;
+}
+
+a {text-align: center;
+    font-size: 35px;
+    display:block;
+}
+
+.drop{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: -30px;
+    margin: 0 auto;
+    background: rgb(86, 33, 105);
+    border-radius: 20px;
+    animation:drip;
+    animation-timing-function: cubic-bezier(1, 0, .91, .19);
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.drop::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 30px solid rgb(86, 33, 105);
+    top: -20px;
+}
+@keyframes drip{
+    to{
+        top:190px;
+    }
+}
