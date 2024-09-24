@@ -1,0 +1,39 @@
+body{
+    width: 5000px;
+    margin: 0px;
+}
+
+.sky__container{
+    background-color:aqua;
+    height:500px;
+    width: 4990px;
+    margin-top: 0px;
+    padding-top: 75px;
+    padding-left: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ground__container{
+    background-color: rgba(165, 42, 42, 0.394);
+    height: 100px;
+}
+
+.instructions{
+font-size: 60px;
+font-weight: bolder;
+font-family: monospace;
+}
+
+.door{
+    float:right;
+}
+
+#openDoor{
+    height: 500px;
+    width: 300px;
+    font-size: 45px;
+    background-color:azure;
+    font-family: monospace;
+}
