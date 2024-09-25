@@ -37,3 +37,7 @@ font-family: monospace;
     background-color:azure;
     font-family: monospace;
 }
+
+#img_container{
+    display: show;
+}

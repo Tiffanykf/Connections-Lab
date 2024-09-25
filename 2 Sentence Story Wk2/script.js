@@ -1,14 +1,24 @@
 let button;
 let baby;
 
-button = document.getElementById('button');
+button = document.getElementById('openDoor');
+console.log(button);
+
+baby = document.getElementById('baby');
+console.log(baby);
+
+babyContainer = document.getElementById('img_container');
+console.log(babyContainer);
 
 button.addEventListener("click", function(){
     document.body.style.background = baby;
-    baby.src = "baby.jpeg";
+    document.getElementById('img_container').style.
+    baby.src = "./Baby.jpeg";
+    
+    // change the style of the container
 });
 
 window.addEventListener('scroll', function(){
     console.log(window.scrollX);
-    // document.body.style.background = "hsl(165, 100%, 75%)";
+    document.body.style.background = "hsl(165, 100%, " + window.scrollX%75 + ")";
 });
