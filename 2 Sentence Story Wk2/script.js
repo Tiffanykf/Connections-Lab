@@ -20,5 +20,13 @@ button.addEventListener("click", function(){
 
 window.addEventListener('scroll', function(){
     console.log(window.scrollX);
-    document.body.style.background = "hsl(165, 100%, " + window.scrollX%75 + ")";
+
+    // Get the total height of the document
+    const documentWidth = document.body.scrollWidth - window.innerWidth;
+
+    // Calculate the opacity value (between 0 and 1) based on scroll position
+    const opacity = Math.min(scrollX / documentWidth, 1);
+
+    // Set the background color based on scroll position (fading to black)
+    document.body.style.backgroundColor = `rgba(0, 0, 0, ${opacity})`;
 });
