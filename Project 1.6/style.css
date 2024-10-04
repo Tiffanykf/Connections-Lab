@@ -1,0 +1,94 @@
+body{
+  background-color: rgb(124,204,225);
+}
+
+.bodyFont{
+  font-family: 'Permanent Marker';
+  font-size:35px;
+}
+
+.answerFont{
+  font-family: 'Permanent Marker';
+  font-size:35px;
+  margin-right: 5%;
+  color:#c03636;
+}
+
+.instFont{
+  font-family: 'Protest Strike';
+  font-size:20px;
+}
+
+.uProfile{
+  font-family: 'Zen Tokyo Zoo';
+  font-size: 45px;
+  font-weight: lighter;
+  color:#fccf28;
+  text-shadow: -1px -2px 0 #c03636, 1px -2px 0 #c03636, 2px 1px 0 #c03636,
+    1px 2px 0 #c03636;
+  margin-left: 10%;
+  margin-right: 15%;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Sixtyfour Convergence';
+    font-size: 45px;
+}
+
+#data_container{
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.genreButton{
+  background-color: #fccf28;
+  border-radius: 45%;
+  transform: translate(-50%, -50%);
+  font-family: 'Protest Strike';
+  font-size:20px;
+  border: 0;
+  display: flex;
+  padding: 10px 30px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.genreButton:hover{
+  background-color: #e56b1e;
+}
+
+.userButton{
+  background-color: #fccf28;
+  border-radius: 45%;
+  transform: translate(-50%, -50%);
+  font-family: 'Protest Strike';
+  font-size:20px;
+  border: 0;
+  display: flex;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.userButton:hover{
+  background-color: #e56b1e;
+}
+
+.storyButton{
+  background-color: #fccf28;
+  border-radius: 45%;
+  transform: translate(-50%, -50%);
+  font-family: 'Protest Strike';
+  font-size:20px;
+  border: 0;
+  display: flex;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.storyButton:hover{
+  background-color: #e56b1e;
+}

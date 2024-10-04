@@ -1,0 +1,22 @@
+{
+    "description": "Audiovisual media distribution formats, from Discogs Formats List https://www.discogs.com/help/formatslist",
+    "instruments": [
+      "Vinyl",
+      "CD",
+      "HD DVD",
+      "Blu-Ray",
+      "4-Track Cartridge",
+      "8-Track Cartridge",
+      "Cassette",
+      "Microcassette",
+      "Pocket Rocker",
+      "Reel-To-Reel",
+      "Laserdisc",
+      "Wire Recording",
+      "Floppy Disk",
+      "Memory Stick",
+      "Airpods",
+      "Bose Headphones",
+      "Box Set"
+          ]
+  }
