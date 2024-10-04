@@ -46,16 +46,16 @@ window.addEventListener('load', function() {
         storyData = data;
     })
 
-    // fetch('./play.json')
-    // .then(function(response){
-    //     return response.json();
-    // })
-    // .then(function(data){
-    //     console.log(data.instruments);
-    //     instrumentsArray = data.instruments;
-    //     randomNumber = Math.floor(Math.random()*instrumentsArray.length)
-    //     playerElement = data.instruments[randomNumber];
-    // })
+    fetch('./play.json')
+    .then(function(response){
+        return response.json();
+    })
+    .then(function(data){
+        console.log(data.instruments);
+        instrumentsArray = data.instruments;
+        randomNumber = Math.floor(Math.random()*instrumentsArray.length)
+        playerElement = data.instruments[randomNumber];
+    })
 
     .catch(error => {
         console.log("Error! :" + error);
@@ -119,11 +119,11 @@ function createUserProfile(){
     fave = createElement('h3', `Fave Genre: ${answer}`)
     fave.position(width*.2, 1750);
     fave.class('uProfile');
-    // player = createElement('h3', `Music can only be appreciated via: ${playerElement}`);
-    // player.position(width*.15, 1550);
-    // player.class('uProfile');
+    player = createElement('h3', `Music can only be appreciated via: ${playerElement}`);
+    player.position(width*.15, 1825);
+    player.class('uProfile');
     motto = createElement('h3', `Life Motto: ${answer2}`);
-    motto.position(width*.2, 1825);
+    motto.position(width*.2, 1900);
     motto.class('uProfile');
     let w = width/15;
     for (x=0; x<width; x+=w){
