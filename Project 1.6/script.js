@@ -110,20 +110,20 @@ function collectUserInfo(){
 function createUserProfile(){
     strum.play();
     pHeader = createElement('h3', "But Have You Heard? Profile");
-    pHeader.position(width*.2, 1600);
+    pHeader.position(width*.2, 1575);
     pHeader.class('uProfile');
     title = input.value();
     user = createElement('h3', `Name: ${title}`);
-    user.position(width*.2, 1675);
+    user.position(width*.2, 1650);
     user.class('uProfile');
     fave = createElement('h3', `Fave Genre: ${answer}`)
-    fave.position(width*.2, 1750);
+    fave.position(width*.2, 1725);
     fave.class('uProfile');
-    player = createElement('h3', `Music can only be appreciated via: ${playerElement}`);
-    player.position(width*.15, 1825);
+    player = createElement('h3', `Thinks music should be heard via: ${playerElement}`);
+    player.position(width*.15, 1800);
     player.class('uProfile');
     motto = createElement('h3', `Life Motto: ${answer2}`);
-    motto.position(width*.2, 1900);
+    motto.position(width*.2, 1950);
     motto.class('uProfile');
     let w = width/15;
     for (x=0; x<width; x+=w){
