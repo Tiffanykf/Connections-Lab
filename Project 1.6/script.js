@@ -120,7 +120,7 @@ function createUserProfile(){
     fave.position(width*.2, 1725);
     fave.class('uProfile');
     player = createElement('h3', `Thinks music should be heard via: ${playerElement}`);
-    player.position(width*.15, 1800);
+    player.position(width*.2, 1800);
     player.class('uProfile');
     motto = createElement('h3', `Life Motto: ${answer2}`);
     motto.position(width*.2, 1950);
