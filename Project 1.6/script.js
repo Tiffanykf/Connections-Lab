@@ -95,6 +95,7 @@ function createStoryButtons() {
     }
 }
 
+//Get the name of the user
 function collectUserInfo(){
     input = createInput();
     input.position(width*.6, 1370);
@@ -107,6 +108,7 @@ function collectUserInfo(){
     enter.mousePressed(() => createUserProfile());
 }
 
+//Create the user profile
 function createUserProfile(){
     strum.play();
     pHeader = createElement('h3', "But Have You Heard? Profile");
@@ -125,6 +127,8 @@ function createUserProfile(){
     motto = createElement('h3', `Life Motto: ${answer2}`);
     motto.position(width*.15, 1950);
     motto.class('uProfile');
+
+    //Create the shaded circle background
     let w = width/15;
     for (x=0; x<width; x+=w){
       circle(width*.5, 1725, x);
